@@ -1,0 +1,130 @@
+{
+  "result" : {
+    "Week 45": {
+      "Net Comp": {
+        "data": 12,
+        "installation": 6
+      },
+      "AnalyzerHR": {
+        "data": 22,
+        "installation": 4
+      },
+      "Question Right": {
+        "data": 30,
+        "installation": 3
+      }
+    },
+    "Week 46": {
+      "Net Comp": {
+        "data": 320,
+        "installation": 7
+      },
+      "AnalyzerHR": {
+        "data": 420,
+        "installation": 3
+      },
+      "Question Right": {
+        "data": 502,
+        "installation": 1
+      }
+    },
+    "Week 47": {
+      "Net Comp": {
+        "data": 100,
+        "installation": 8
+      },
+      "AnalyzerHR": {
+        "data": 290,
+        "installation": 5
+      },
+      "Question Right": {
+        "data": 392,
+        "installation": 3
+      }
+    },
+    "Week 48": {
+      "Net Comp": {
+        "data": 120,
+        "installation": 9
+      },
+      "AnalyzerHR": {
+        "data": 220,
+        "installation": 7
+      },
+      "Question Right": {
+        "data": 302,
+        "installation": 3
+      }
+    },
+    "Week 49": {
+      "Net Comp": {
+        "data": 270,
+        "installation": 3
+      },
+      "AnalyzerHR": {
+        "data": 450,
+        "installation": 2
+      },
+      "Question Right": {
+        "data": 520,
+        "installation": 1
+      }
+    },
+    "Week 50": {
+      "Net Comp": {
+        "data": 120,
+        "installation": 6
+      },
+      "AnalyzerHR": {
+        "data": 430,
+        "installation":4
+      },
+      "Question Right": {
+        "data": 600 ,
+        "installation": 3
+      }
+    },
+    "Week 51": {
+      "Net Comp": {
+        "data": 240,
+        "installation": 7
+      },
+      "AnalyzerHR": {
+        "data": 530,
+        "installation": 3
+      },
+      "Question Right": {
+        "data": 800,
+        "installation": 1
+      }
+    },
+    "Week 52": {
+      "Net Comp": {
+        "data": 200,
+        "installation": 8
+      },
+      "AnalyzerHR": {
+        "data": 580,
+        "installation": 5
+      },
+      "Question Right": {
+        "data": 900,
+        "installation": 3
+      }
+    },
+    "Week 53": {
+      "Net Comp": {
+        "data": 50,
+        "installation":9
+      },
+      "AnalyzerHR": {
+        "data": 140,
+        "installation":7
+      },
+      "Question Right": {
+        "data": 260,
+        "installation": 3
+      }
+    }
+  }
+}

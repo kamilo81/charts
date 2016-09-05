@@ -1,0 +1,164 @@
+@import "vars";
+.outer-chart-box {
+	.panel {
+		-webkit-border-radius: 0;
+		-moz-border-radius: 0;
+		border-radius: 0;
+		border: 1px solid #73b4ca;
+		.panel-heading {
+			padding: 0 15px;
+			background: #daeefb;
+			color: @textColor;
+			font-family: @FontBold;
+			font-size: 20px;
+			border-bottom: 1px solid #73b4ca;
+			.icon {
+				position: relative;
+				top: -10px;
+				display: inline-block;
+				border: 3px double #b2c4d0;
+				-webkit-border-radius: 8px;
+				-moz-border-radius: 8px;
+				border-radius: 8px;
+				width: 40px;
+				height: 40px;
+				text-align: center;
+				vertical-align: middle;
+				background: #e2f6ff;
+				span.fa {
+					margin-top: 5px;
+					font-size: 24px;
+					font-weight: bold;
+				}
+			}
+		}
+		.panel-body {
+			.row {
+				display: flex;
+				align-items: stretch;
+				.control-panel {
+					position: relative;
+					text-align: right;
+					p {
+						text-align: right;
+						margin: 0;
+						color: #2f6ca6;
+						display: inline-block;
+						font-family: @FontBold;
+						font-size: 18px;
+						&.heading {
+							font-family: @FontBold;
+							font-size: 60px;
+							color: @textColor;
+							position: relative;
+							&.currency2:before {
+								content: '\f155';
+								font-family: @FontAwesome;
+								color: #2f6ca6;
+								font-size: 30px;
+								position: absolute;
+								top: 15px;
+								left: -20px;
+								font-weight: bold;
+							}
+						}
+					}
+					.button {
+						font-family: @FontLight;
+						font-size: 20px;
+						position: absolute;
+						bottom: 0;
+						right: 15px;
+						border: 2px solid #fff;
+						-webkit-border-radius: 8px;
+						-moz-border-radius: 8px;
+						border-radius: 8px;
+						-webkit-box-shadow: 0 9px 16px -2px rgba(166,166,166,1);
+						-moz-box-shadow: 0 9px 16px -2px rgba(166,166,166,1);
+						box-shadow: 0 9px 16px -2px rgba(166,166,166,1);
+						padding: 5px 15px;
+						width: 200px;
+						text-align: center;
+						background: #7db9e8;
+						background: -moz-linear-gradient(top,  #7db9e8 0%, #1e5799 100%, #1e5799 101%);
+						background: -webkit-linear-gradient(top,  #7db9e8 0%,#1e5799 100%,#1e5799 101%);
+						background: linear-gradient(to bottom,  #7db9e8 0%,#1e5799 100%,#1e5799 101%);
+						color: #fff;
+						&:focus,
+						&:visited,
+						&:hover {
+							text-decoration: none;
+							background: #1e5799;
+							background: -moz-linear-gradient(top,  #1e5799 0%, #1e5799 100%, #1e5799 101%);
+							background: -webkit-linear-gradient(top,  #1e5799 0%,#1e5799 100%,#1e5799 101%);
+							background: linear-gradient(to bottom,  #1e5799 0%,#1e5799 100%,#1e5799 101%);
+						}
+						&:active {
+							background: #7db9e8;
+							background: -moz-linear-gradient(top,  #7db9e8 0%, #1e5799 100%, #1e5799 101%);
+							background: -webkit-linear-gradient(top,  #7db9e8 0%,#1e5799 100%,#1e5799 101%);
+							background: linear-gradient(to bottom,  #7db9e8 0%,#1e5799 100%,#1e5799 101%);
+						}
+						&:disabled {
+							background: #adadad;
+							cursor: not-allowed;
+							opacity: 0.7;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media @tablet {
+	.outer-chart-box {
+		.panel {
+			.panel-body {
+				.row {
+					.control-panel {
+						p {
+							font-size: 15px;
+							&.heading {
+								font-size: 40px;
+								color: @textColor;
+								position: relative;
+								&:before {
+									content: '\f155';
+									font-family: @FontAwesome;
+									color: #2f6ca6;
+									font-size: 25px;
+									position: absolute;
+									top: 8px;
+									left: -18px;
+									font-weight: bold;
+								}
+							}
+						}
+						.button {
+							font-size: 16px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+@media @smartphone {
+	.outer-chart-box {
+		.panel {
+			.panel-body {
+				.row {
+					display: block;
+					.control-panel {
+						p {
+							&.heading {
+								margin: 20px 0;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

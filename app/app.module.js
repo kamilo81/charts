@@ -1,0 +1,10 @@
+angular.
+module('angularChart',
+    [
+        'chart',
+        'chart.js',
+        'core.filter',
+        'core.printValue',
+        'core.data'
+    ]
+);

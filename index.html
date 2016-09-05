@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html ng-app="angularChart">
+<head>
+    <title>Angular Chart</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Angular Chart">
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="author" content="Kamil Pius">
+    <link href="js/angular/angular-csp.css" rel="stylesheet"/>
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="css/chart.css" rel="stylesheet"/>
+    <link href="css/fonts.css" rel="stylesheet"/>
+    <link href="css/font-awesome.css" rel="stylesheet"/>
+    <link href="css/global.css" rel="stylesheet"/>
+
+</head>
+<body>
+<div class="container">
+    <br>
+
+
+    <ng-include src="'app/chart/lineChart/lineChart.template.html'"></ng-include>
+    <ng-include src="'app/chart/barChart/barChart.template.html'"></ng-include>
+
+
+</div>
+<script src="js/angular/angular.min.js"></script>
+<script src="js/Chart.min.js"></script>
+<script src="js/angular/angular-chart.min.js"></script>
+<script src="js/angular/angular-resource.min.js"></script>
+<script src="app/app.module.js"></script>
+<script src="app/core/filters/filters.module.js"></script>
+<script src="app/core/filters/currency2.filter.js"></script>
+<script src="app/core/printValue/printValue.module.js"></script>
+<script src="app/chart/chart.module.js"></script>
+<script src="app/core/printValue/printValue.directive.js"></script>
+<script src="app/chart/lineChart/lineChart.controller.js"></script>
+<script src="app/chart/barChart/barChart.controller.js"></script>
+<script src="app/core/data/data.module.js"></script>
+<script src="app/core/data/getInstallationsData.service.js"></script>
+<script src="app/core/data/getRevenueData.service.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<div class="row" ng-controller="DataLinearCtrl">
+    <div class="col-sm-12">
+        <div class="outer-chart-box">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <div class="icon">
+                        <span class="fa fa-usd"></span>
+                    </div>
+                    Revenue by Solution
+                </div>
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-sm-8 chart-panel">
+                            <canvas id="line" class="chart chart-line" chart-data="data"
+                                    chart-labels="labels" chart-series="series" chart-options="options"
+                                    chart-dataset-override="datasetOverride" chart-click="onClick" chart-colors="colors">
+                            </canvas>
+                        </div>
+                        <div class="col-sm-4 control-panel">
+                            <print-value total="{{ total }}" filter="currency2"></print-value>
+
+                            <br>
+                            <p>Revenue Stream</p>
+
+                            <input type="button" class="button" ng-click="loadData()"  ng-disabled="loaded == 1" value="Revenue Analysis"/>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

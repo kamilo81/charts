@@ -1,0 +1,31 @@
+<div class="row" ng-controller="DataBarCtrl">
+    <div class="col-sm-12">
+        <div class="outer-chart-box">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <div class="icon">
+                        <span class="fa fa-download"></span>
+                    </div>
+                    Installations
+                </div>
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-sm-8 chart-panel">
+                            <canvas id="bar" class="chart chart-bar"
+                                    chart-data="data" chart-labels="labels" chart-series="series" chart-options="options"
+                                    chart-dataset-override="datasetOverride" chart-click="onClick" chart-colors="colors"> chart-series="series"
+                            </canvas>
+                        </div>
+                        <div class="col-sm-4 control-panel">
+                            <print-value total="{{ total }}" filter=""></print-value>
+                            <br>
+                            <p>Installations</p>
+
+                            <input type="button"  class="button" ng-click="loadData()" ng-disabled="loaded == 1" value="View Installations"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
